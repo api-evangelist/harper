@@ -1,9 +1,27 @@
 aid: harper
 name: Harper
-description: 'Harper is a company surfaced as a portfolio company of emergence-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: insurance-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Harper is an AI-native commercial insurance brokerage founded in 2024 and headquartered
+  in San Francisco. Harper pairs licensed insurance experts with a proprietary AI tech stack that
+  automates core brokerage workflows — reading applications, routing submissions, following up with
+  underwriters, and managing client communications — to place excess & surplus (E&S) and specialty
+  commercial coverage across industries from trucking and construction to technology, CPG, and
+  professional services. Businesses can get bound coverage in 24-48 hours rather than weeks. The
+  company is backed by Emergence Capital and Y Combinator and raised a $47M Series A and seed round in
+  early 2026. Harper does not currently publish a public developer API; this profile tracks the
+  company''s identity and public web surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/harper/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.harperinsure.com/favicon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Insurance Tech
+- Insurance
+- Insurtech
+- Commercial Insurance
+- Insurance Brokerage
+- Business Insurance
+- Artificial Intelligence
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.harper.insure
+  url: https://www.harperinsure.com
+- type: Blog
+  url: https://www.harperinsure.com/news
+- type: Blog
+  name: Engineering Blog
+  url: https://www.harperinsure.com/engineering
+- type: PrivacyPolicy
+  url: https://www.harperinsure.com/privacypolicy
+- type: Login
+  name: Customer Portal
+  url: https://link.harperinsure.com/
+- type: DomainSecurity
+  url: security/harper-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
