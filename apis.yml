@@ -10,6 +10,17 @@ description: 'Harper is an AI-native commercial insurance brokerage founded in 2
   early 2026. Harper does not currently publish a public developer API; this profile tracks the
   company''s identity and public web surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/harper/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
